@@ -1,324 +1,676 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WC9L1JSTGR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- Google tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-81BJKTBSV2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-81BJKTBSV2');
+    </script>
 
-  gtag('config', 'G-WC9L1JSTGR');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elegance Cosmetics | Premium Beauty Products</title>
     
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Advanced SEO Architecture -->
+    <title>Elegance Cosmaceuticals | Premium Cosmetics & Luxury Skincare Pakistan</title>
+    <meta name="description" content="Discover premium beauty at Elegance Cosmaceuticals. Shop high-quality lipsticks, flawless foundations, skincare, and complete beauty essentials in Pakistan with secure delivery.">
+    <meta name="keywords" content="cosmetics Pakistan, organic skincare, bridal makeup, authentic luxury beauty, buy lipstick Lahore, premium foundations, cosmaceuticals">
+    <meta name="robots" content="index, follow">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
     <style>
         :root {
-            --primary-rose: #9a3412;
-            --accent-pink: #fdf2f8;
-            --gold: #d4af37;
-            --dark-charcoal: #1e1e1e;
-            --text-muted: #6b7280;
-            --border-color: #f3f4f6;
+            --primary-rose: #881337; /* Royal Deep Velvet Rose */
+            --accent-pink: #fff1f2; /* Luxurious Light Soft Pearl Blush */
+            --gold: #b45309; /* Premium Soft Antique Gold */
+            --dark-charcoal: #0f172a; /* Executive Modern Slate Black */
+            --text-muted: #475569;
+            --border-color: #e2e8f0;
+            --card-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.07);
         }
+
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
             font-family: 'Plus Jakarta Sans', sans-serif;
         }
+
         html {
             scroll-behavior: smooth;
         }
+
         body {
-            background-color: #ffffff;
+            background-color: #f8fafc;
             color: var(--dark-charcoal);
             line-height: 1.6;
         }
+
+        /* Top Announcement Ribbon */
+        .announcement-bar {
+            background-color: var(--primary-rose);
+            color: #ffffff;
+            text-align: center;
+            padding: 8px 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        /* Navigation */
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            padding: 20px 8%;
+            padding: 18px 8%;
             background: #ffffff;
             position: sticky;
             top: 0;
             z-index: 1000;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+            box-shadow: 0 4px 20px rgba(15, 23, 42, 0.04);
         }
+
         .logo {
             font-family: 'Playfair Display', serif;
-            font-size: 1.8rem;
-            font-weight: 600;
+            font-size: 1.7rem;
+            font-weight: 700;
             color: var(--primary-rose);
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
         }
+
+        .logo span {
+            color: var(--gold);
+            font-weight: 400;
+        }
+
         .nav-links {
             display: flex;
             list-style: none;
             gap: 30px;
+            align-items: center;
         }
+
         .nav-links a {
             text-decoration: none;
             color: var(--dark-charcoal);
             font-weight: 500;
             font-size: 0.95rem;
-            transition: color 0.3s;
+            transition: color 0.3s ease;
         }
+
         .nav-links a:hover {
             color: var(--primary-rose);
         }
+
         .cta-btn {
             background-color: var(--primary-rose);
             color: #ffffff !important;
-            padding: 10px 20px;
+            padding: 12px 26px;
             border-radius: 50px;
             font-weight: 600 !important;
-            transition: transform 0.3s, background-color 0.3s;
+            box-shadow: 0 4px 12px rgba(136, 19, 55, 0.25);
+            transition: all 0.3s ease;
         }
+
         .cta-btn:hover {
-            background-color: #7c2d12;
+            background-color: #690b29;
             transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(136, 19, 55, 0.35);
         }
+
+        /* Hero Showcase */
         .hero {
-            background: linear-gradient(rgba(253, 242, 248, 0.9), rgba(253, 242, 248, 0.4)), url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1200&q=80');
+            background: linear-gradient(rgba(255, 241, 242, 0.92), rgba(255, 241, 242, 0.6)), url('https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=1200&q=80');
             background-size: cover;
             background-position: center;
-            padding: 120px 8%;
+            padding: 140px 8%;
             text-align: center;
         }
+
         .hero-content {
-            max-width: 700px;
+            max-width: 800px;
             margin: 0 auto;
         }
+
         .hero h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 3.5rem;
+            font-size: 3.8rem;
             color: var(--dark-charcoal);
-            margin-bottom: 20px;
-            line-height: 1.2;
+            margin-bottom: 24px;
+            line-height: 1.15;
+            font-weight: 700;
         }
+
         .hero p {
-            font-size: 1.2rem;
+            font-size: 1.25rem;
             color: var(--text-muted);
-            margin-bottom: 35px;
+            margin-bottom: 40px;
+            font-weight: 400;
         }
+
+        /* Section Layouts */
         .section-padding {
-            padding: 80px 8%;
+            padding: 100px 8%;
         }
+
         .section-header {
             text-align: center;
-            margin-bottom: 50px;
+            max-width: 600px;
+            margin: 0 auto 60px auto;
         }
+
         .section-header h2 {
             font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
+            font-size: 2.6rem;
             color: var(--dark-charcoal);
-            margin-bottom: 10px;
+            margin-bottom: 12px;
+            font-weight: 700;
         }
+
         .section-header p {
             color: var(--text-muted);
-            font-size: 1rem;
+            font-size: 1.05rem;
         }
+
+        /* Core Specific Perks Grid */
+        .features {
+            background-color: #ffffff;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 35px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .feature-box {
+            background: var(--f8fafc);
+            padding: 40px 30px;
+            border-radius: 16px;
+            text-align: center;
+            border: 1px solid var(--border-color);
+            transition: all 0.3s ease;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--card-shadow);
+            border-color: var(--gold);
+        }
+
+        .feature-box i {
+            font-size: 2.8rem;
+            color: var(--primary-rose);
+            margin-bottom: 20px;
+        }
+
+        .feature-box h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.45rem;
+            margin-bottom: 12px;
+            color: var(--dark-charcoal);
+        }
+
+        .feature-box p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        /* Dynamic Product Grid UI */
         .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 35px;
+        }
+
+        .product-card {
+            background: #ffffff;
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            text-align: center;
+            padding-bottom: 30px;
+            box-shadow: var(--card-shadow);
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.12);
+            border-color: var(--primary-rose);
+        }
+
+        .product-img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            background-color: var(--accent-pink);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .product-category {
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--gold);
+            font-weight: 700;
+            margin-top: 24px;
+        }
+
+        .product-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            margin: 10px 20px;
+            color: var(--dark-charcoal);
+            font-weight: 600;
+        }
+
+        .product-price {
+            font-weight: 700;
+            color: var(--primary-rose);
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+        }
+
+        .order-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background-color: #25d366; 
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 50px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .order-btn:hover {
+            background-color: #128c7e;
+            transform: scale(1.03);
+        }
+
+        /* Trust & Testimonial Structure */
+        .testimonials-section {
+            background-color: var(--accent-pink);
+        }
+
+        .testimonials-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 30px;
         }
-        .product-card {
+
+        .testimonial-card {
             background: #ffffff;
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            overflow: hidden;
-            transition: box-shadow 0.3s, transform 0.3s;
-            text-align: center;
-            padding-bottom: 25px;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: var(--card-shadow);
+            position: relative;
         }
-        .product-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
-        }
-        .product-img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            background-color: var(--accent-pink);
-        }
-        .product-category {
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            color: var(--text-muted);
-            margin-top: 20px;
-        }
-        .product-title {
+
+        .testimonial-card::before {
+            content: "\201C";
             font-family: 'Playfair Display', serif;
-            font-size: 1.3rem;
-            margin: 8px 0;
-            color: var(--dark-charcoal);
+            font-size: 5rem;
+            color: rgba(136, 19, 55, 0.08);
+            position: absolute;
+            top: 10px;
+            left: 20px;
         }
-        .product-price {
-            font-weight: 600;
-            color: var(--primary-rose);
-            font-size: 1.1rem;
+
+        .stars {
+            color: #f59e0b;
             margin-bottom: 15px;
-        }
-        .order-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background-color: #25d366;
-            color: #ffffff;
-            text-decoration: none;
-            padding: 10px 24px;
-            border-radius: 50px;
             font-size: 0.9rem;
+        }
+
+        .testimonial-card p {
+            color: var(--text-muted);
+            font-style: italic;
+            margin-bottom: 20px;
+            font-size: 0.98rem;
+        }
+
+        .client-name {
+            font-weight: 700;
+            font-size: 0.95rem;
+            color: var(--dark-charcoal);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* Corporate FAQ Component */
+        .faq-section {
+            background-color: #ffffff;
+        }
+
+        .faq-container {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid var(--border-color);
+            padding: 24px 0;
+        }
+
+        .faq-question {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
             font-weight: 600;
-            transition: background-color 0.3s;
+            color: var(--dark-charcoal);
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        .order-btn:hover {
-            background-color: #128c7e;
-        }
-        .features {
-            background-color: var(--accent-pink);
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 40px;
-            text-align: center;
-        }
-        .feature-box i {
-            font-size: 2.5rem;
+
+        .faq-question::after {
+            content: '+';
+            font-size: 1.5rem;
             color: var(--primary-rose);
-            margin-bottom: 15px;
+            font-weight: 400;
         }
-        .feature-box h3 {
+
+        .faq-answer {
+            margin-top: 12px;
+            color: var(--text-muted);
+            font-size: 0.98rem;
+            display: block; /* Native accessible layout */
+        }
+
+        /* Brand Policy Infrastructure */
+        .policy-section {
+            background-color: #f1f5f9;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .policy-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 40px;
+        }
+
+        .policy-block h3 {
             font-family: 'Playfair Display', serif;
             font-size: 1.4rem;
-            margin-bottom: 10px;
+            color: var(--dark-charcoal);
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
+
+        .policy-block h3 i {
+            color: var(--gold);
+        }
+
+        .policy-block p, .policy-block ul {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .policy-block ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        .policy-block li {
+            margin-bottom: 8px;
+        }
+
+        /* Executive Footer Design */
         footer {
             background-color: var(--dark-charcoal);
             color: #ffffff;
             text-align: center;
-            padding: 50px 20px;
+            padding: 70px 20px 40px 20px;
         }
+
         .footer-logo {
             font-family: 'Playfair Display', serif;
-            font-size: 2rem;
+            font-size: 2.2rem;
+            font-weight: 700;
             color: #ffffff;
             margin-bottom: 15px;
+            letter-spacing: 1px;
         }
+
+        .footer-logo span {
+            color: var(--gold);
+        }
+
+        .footer-info {
+            color: #94a3b8;
+            max-width: 500px;
+            margin: 0 auto 30px auto;
+            font-size: 0.95rem;
+        }
+
         .social-icons {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            margin: 20px 0;
+            gap: 25px;
+            margin: 25px 0;
         }
+
         .social-icons a {
             color: #ffffff;
-            font-size: 1.3rem;
-            transition: color 0.3s;
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            background: rgba(255,255,255,0.05);
+            width: 50px;
+            height: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
         }
+
         .social-icons a:hover {
-            color: var(--gold);
+            color: #ffffff;
+            background-color: var(--primary-rose);
+            transform: translateY(-3px);
         }
+
+        .copyright {
+            font-size: 0.85rem;
+            color: #64748b;
+            margin-top: 40px;
+            border-top: 1px solid rgba(255,255,255,0.08);
+            padding-top: 30px;
+        }
+
+        /* Responsive Setup */
         @media (max-width: 768px) {
             .nav-links { display: none; }
-            .hero h1 { font-size: 2.5rem; }
+            .hero h1 { font-size: 2.6rem; }
+            .section-padding { padding: 60px 5%; }
         }
     </style>
 </head>
 <body>
 
+    <!-- Top Announcement Ribbon -->
+    <div class="announcement-bar">
+        ✨ 100% ORIGINAL GUARANTEED PRODUCTS &bull; PREMIUM COSMETICAL SELECTION
+    </div>
+
+    <!-- Navigation Bar -->
     <nav>
-        <div class="logo">ELEGANCE</div>
+        <div class="logo">ELEGANCE <span>COSMACEUTICALS</span></div>
         <ul class="nav-links">
             <li><a href="#home">Home</a></li>
+            <li><a href="#perks">Why Us</a></li>
             <li><a href="#products">Collection</a></li>
-            <li><a href="#features">Why Us</a></li>
-            <li><a class="cta-btn" href="https://wa.me/923306777068?text=Hello%20I%20want%20to%20inquire%20about%20cosmetics" target="_blank"><i class="fa-brands fa-whatsapp"></i> Chat & Order</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a class="cta-btn" href="https://wa.me/923306777068?text=Hello%20Elegance%20Cosmaceuticals!%20I%20want%20to%20inquire%20about%20your%20beauty%20collection." target="_blank"><i class="fa-brands fa-whatsapp"></i> Chat & Order</a></li>
         </ul>
     </nav>
 
+    <!-- Hero Display Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Reveal Your Natural Radiance</h1>
-            <p>Explore our premium curated collection of luxury lipsticks, foundations, and organic skincare solutions designed to empower your everyday look.</p>
-            <a href="#products" class="cta-btn" style="padding: 15px 35px; font-size: 1rem; text-decoration: none;">Explore Collection</a>
+            <h1>Redefine Your Unique Perfection</h1>
+            <p>Explore a professionally curated world of high-pigment cosmetics, luxury foundations, and next-generation skincare formulas targeted to elevate everyday modern beauty.</p>
+            <a href="#products" class="cta-btn" style="padding: 16px 40px; font-size: 1rem; text-decoration: none; box-shadow: 0 10px 25px rgba(136, 19, 55, 0.35);">Browse Live Catalog</a>
         </div>
     </section>
 
-    <section id="features" class="section-padding features">
+    <!-- Core Brand Promises (Customer Specific Perks) -->
+    <section id="perks" class="section-padding features">
         <div class="feature-box">
-            <i class="fa-solid fa-leaf"></i>
-            <h3>100% Organic</h3>
-            <p>Dermatologically tested chemical-free products safe for all skin types.</p>
-        </div>
-        <div class="feature-box">
-            <i class="fa-solid fa-truck-fast"></i>
-            <h3>Fast Delivery</h3>
-            <p>Swift, secure, and reliable shipping straight to your doorstep.</p>
+            <i class="fa-solid fa-shield-heart"></i>
+            <h3>100% Original Authenticity</h3>
+            <p>Every formula in our inventory is sourced straight from globally trusted premium beauty brands. Zero compromises on safety or luxury quality.</p>
         </div>
         <div class="feature-box">
             <i class="fa-solid fa-sparkles"></i>
-            <h3>Premium Quality</h3>
-            <p>Highly pigmented long-lasting shades imported from trusted global brands.</p>
+            <h3>All Types of Cosmetics</h3>
+            <p>From seamless base formulas to high-glam lip pigments and organic dermatological skincare remedies—we stock comprehensive choices for all skin trends.</p>
+        </div>
+        <div class="feature-box">
+            <i class="fa-solid fa-truck-ramp-box"></i>
+            <h3>Secure Insured Delivery</h3>
+            <p>Every single parcel is packed using specialized impact-resistant protective wrapping to ensure your precious products reach your hands pristine.</p>
         </div>
     </section>
 
+    <!-- Showcase Catalog Section -->
     <section id="products" class="section-padding">
         <div class="section-header">
-            <h2>Our Signature Collection</h2>
-            <p>Click the button on any item to place an order instantly via WhatsApp</p>
+            <h2>The Signature Collection</h2>
+            <p>Select your favorite cosmetic essential below to open a direct, automated fast-checkout order straight with us on WhatsApp.</p>
         </div>
 
         <div class="products-grid">
+            <!-- PRODUCT 1 -->
             <div class="product-card">
-                <img src="PRODUCT-1-IMAGE.jpg" alt="Product 1 Title" class="product-img">
-                <div class="product-category">Lips</div>
-                <h3 class="product-title">Your Product 1 Name</h3>
+                <img src="PRODUCT-1-IMAGE.jpg" alt="Premium Lipstick Selection" class="product-img">
+                <div class="product-category">Lips Collection</div>
+                <h3 class="product-title">Your Premium Lipstick Title</h3>
                 <div class="product-price">Rs. 1,500</div>
-                <a href="https://wa.me/923306777068?text=I%20want%20to%20order%20Product%201" target="_blank" class="order-btn">
+                <a href="https://wa.me/923306777068?text=I%20want%20to%20place%20an%20order%20for%20Your%20Premium%20Lipstick" target="_blank" class="order-btn">
                     <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
                 </a>
             </div>
 
+            <!-- PRODUCT 2 -->
             <div class="product-card">
-                <img src="PRODUCT-2-IMAGE.jpg" alt="Product 2 Title" class="product-img">
-                <div class="product-category">Face</div>
-                <h3 class="product-title">Your Product 2 Name</h3>
+                <img src="PRODUCT-2-IMAGE.jpg" alt="Professional Base Foundations" class="product-img">
+                <div class="product-category">Face Artistry</div>
+                <h3 class="product-title">Your Luxury Foundation Title</h3>
                 <div class="product-price">Rs. 2,500</div>
-                <a href="https://wa.me/923306777068?text=I%20want%20to%20order%20Product%202" target="_blank" class="order-btn">
+                <a href="https://wa.me/923306777068?text=I%20want%20to%20place%20an%20order%20for%20Your%20Luxury%20Foundation" target="_blank" class="order-btn">
                     <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
                 </a>
             </div>
 
+            <!-- PRODUCT 3 -->
             <div class="product-card">
-                <img src="PRODUCT-3-IMAGE.jpg" alt="Product 3 Title" class="product-img">
-                <div class="product-category">Eyes</div>
-                <h3 class="product-title">Your Product 3 Name</h3>
+                <img src="PRODUCT-3-IMAGE.jpg" alt="Luxury Eye Essentials" class="product-img">
+                <div class="product-category">Eyes Palette</div>
+                <h3 class="product-title">Your Eye Element Title</h3>
                 <div class="product-price">Rs. 990</div>
-                <a href="https://wa.me/923306777068?text=I%20want%20to%20order%20Product%203" target="_blank" class="order-btn">
+                <a href="https://wa.me/923306777068?text=I%20want%20to%20place%20an%20order%20for%20Your%20Eye%20Element" target="_blank" class="order-btn">
                     <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
                 </a>
             </div>
         </div>
     </section>
 
-    <footer>
-        <div class="footer-logo">ELEGANCE COSMETICS</div>
-        <p>Your one-stop destination for authentic and premium beauty products.</p>
-        <div class="social-icons">
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://wa.me/923306777068" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    <!-- Customer Testimonials / Reviews Section -->
+    <section class="section-padding testimonials-section">
+        <div class="section-header">
+            <h2>Trusted By Beauty Enthusiasts</h2>
+            <p>Read honest feedback left by our wonderful verified clients from across the country.</p>
         </div>
-        <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 20px;">&copy; 2026 Elegance Cosmetics. All rights reserved.</p>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>Finding genuine imported formulas in Lahore used to be stressful. Elegance Cosmaceuticals delivered beautiful, authentic velvet formulas. Absolutely love the responsive checkout process!</p>
+                <div class="client-name">Ayesha K. &bull; Verified Buyer</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>The foundation coverage stays completely smooth all day without oxidation. The delivery took 5 days, well-wrapped inside safety bubble sheets. 10/10 recommendation.</p>
+                <div class="client-name">Sana M. &bull; Verified Buyer</div>
+            </div>
+            <div class="testimonial-card">
+                <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                <p>The organic skincare selection feels incredibly gentle on reactive skin. Ordering directly via WhatsApp is super easy and saves so much time compared to tedious carts.</p>
+                <div class="client-name">Zainab R. &bull; Regular Client</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-padding faq-section">
+        <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Got queries? We have laid out clear answers right here to help guide your shopping experience smoothly.</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">Are all cosmetics on your website 100% original?</div>
+                <div class="faq-answer">Yes, absolutely. Authenticity is our primary foundation. We source all cosmetics and formulas carefully to guarantee completely safe, unadulterated cosmetic goods.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">How can I place an order?</div>
+                <div class="faq-answer">Simply browse our catalog and tap the green "Order on WhatsApp" button next to your chosen item. This instantly builds a structured template text and opens a direct chat with us to confirm your details.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">What are the available payment options?</div>
+                <div class="faq-answer">We accept flexible standard payment structures including secure Cash on Delivery (COD), Direct Bank Transfers, and mobile wallet payments (EasyPaisa/JazzCash).</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Return & Shipping Policy Section (Premium Reform) -->
+    <section class="section-padding policy-section">
+        <div class="policy-grid">
+            <div class="policy-block">
+                <h3><i class="fa-solid fa-truck-fast"></i> Premium Shipping Framework</h3>
+                <p>We work in collaboration with premium logistics partners to ensure safe shipment runs across Pakistan.</p>
+                <ul>
+                    <li><strong>Delivery Window:</strong> 5 to 7 working days from order confirmation.</li>
+                    <li><strong>Tracking Status:</strong> Direct SMS tracking alerts are pushed as soon as packages register with dispatch counters.</li>
+                    <li><strong>Packaging:</strong> Customized dual-layer bubble wrapping protects fragile contents against internal transport pressures.</li>
+                </ul>
+            </div>
+            <div class="policy-block">
+                <h3><i class="fa-solid fa-arrow-rotate-left"></i> Reformed Luxury Exchange Policy</h3>
+                <p>To preserve pristine cosmetic hygiene codes for all buyers, our revised returns work on structured premium conditions:</p>
+                <ul>
+                    <li><strong>Eligibility Window:</strong> Requests must be lodged within 7 days of package delivery.</li>
+                    <li><strong>Quality Check Conditions:</strong> Due to health safety regulations, items must remain fully unopened, seal-intact, and in native original packaging box states.</li>
+                    <li><strong>Damages:</strong> If a product is damaged during shipping, take a photo immediately and share it with our WhatsApp team for an un-debated express replacement run.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Executive Footer Area -->
+    <footer>
+        <div class="footer-logo">ELEGANCE <span>COSMACEUTICALS</span></div>
+        <div class="footer-info">Your premium destination for authentic luxury makeup and targeted skincare essentials. Cultivating true radiant confidence nationwide.</div>
+        
+        <p style="font-size: 0.95rem; color: #f8fafc;"><i class="fa-solid fa-envelope"></i> inquiries@elegancecosmaceuticals.com &bull; <i class="fa-solid fa-location-dot"></i> Lahore, Pakistan</p>
+        
+        <div class="social-icons">
+            <a href="#" aria-label="Instagram Page"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="Facebook Page"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/923306777068" target="_blank" aria-label="WhatsApp Line"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+        <p class="copyright">&copy; 2026 Elegance Cosmaceuticals. All rights reserved. Crafted for ultimate client reliability.</p>
     </footer>
 
 </body>
